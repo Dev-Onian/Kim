@@ -53,4 +53,15 @@ if (is.na(question)){
   print(paste(question, "is an Armstrong number!"))
 }
 
-
+#' REVIEWER NOTES
+#' -----------------------------------------------------------------------------
+#' 1. The annotations will reference lines of code that appear to have shifted due
+#'    to other comments. For example, on line 15 you write "I forgot to add this 
+#'    into my plan - it should be after line 7" but there is no code on line 7
+#' 2. The wording of the plan can be a bit confusing. It is sometimes unclear 
+#'    what pieces of code the notes are referring to, and some read as reminders
+#'    written for the original developer, rather than a second party unfamilliar
+#'    with the code. It would be more clear if the "notes to self" were in the 
+#'    commit notes, and that the comments in the code were purely explanatory
+#' 3. The code takes account of all possibilities of user input, with the "if else"
+#'    conditionals placed in an inutitive sense
